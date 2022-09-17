@@ -1,0 +1,158 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "change me",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "greetings",
+          "slots": [],
+          "samples": [
+            "what is up",
+            "how are you",
+            "how are you swick",
+            "swick how are you"
+          ]
+        },
+        {
+          "name": "thanks",
+          "slots": [],
+          "samples": [
+            "thanks",
+            "you are welcome",
+            "nice to meet you",
+            "thanks swick"
+          ]
+        },
+        {
+          "name": "restart",
+          "slots": [],
+          "samples": [
+            "recapture",
+            "restart swick",
+            "swick restart please",
+            "ok restart",
+            "okay restart"
+          ]
+        },
+        {
+          "name": "dashboard",
+          "slots": [],
+          "samples": [
+            "swick show to me the dashboard",
+            "show the dashboard",
+            "show dashborad please",
+            "swick show dashboard",
+            "swick open the dashbord please"
+          ]
+        },
+        {
+          "name": "stage_gabel_english",
+          "slots": [],
+          "samples": [
+            "How many phases is there in the Jubail system",
+            "How many stages in there in the Jubail system",
+            "How many phases are there in Jubail system",
+            "How many stages are there in Jubail system",
+            "How many stage is there in Jubail system"
+          ]
+        },
+        {
+          "name": "info",
+          "slots": [],
+          "samples": [
+            "why did you came to world",
+            "why did you come to work",
+            "why are you here",
+            "why are you here swick"
+          ]
+        },
+        {
+          "name": "information",
+          "slots": [],
+          "samples": [
+            "tell me about swag",
+            "tell me about this skill",
+            "why this skill is here",
+            "tell me information about this skill",
+            "what is your name"
+          ]
+        },
+        {
+          "name": "generalAsk",
+          "slots": [],
+          "samples": [
+            "Do you have any errors today",
+            "do you have any errors",
+            "what are errors",
+            "what are the errors",
+            "what are the issues"
+          ]
+        },
+        {
+          "name": "specific_stage",
+          "slots": [
+            {
+              "name": "stage",
+              "type": "stage"
+            }
+          ],
+          "samples": [
+            "what the production quantity in {stage}",
+            "What is the production quantity in {stage}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "RO"
+              }
+            },
+            {
+              "name": {
+                "value": "MSF-Phase2"
+              }
+            }
+          ],
+          "name": "stage"
+        }
+      ]
+    }
+  },
+  "version": "13"
+}
